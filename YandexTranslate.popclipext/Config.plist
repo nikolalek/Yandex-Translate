@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Yandex Translate</string>
+				<key>ru</key>
+				<string>Яндекс Переводчик</string>
+			</dict>
+			<key>URL</key>
+			<string>https://{popclip option site}/?langpair=auto%7Cauto&amp;text={popclip text}</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://github.com/nikolalek</string>
+			<key>Name</key>
+			<string>Aleksey Nikolaev</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Open Yandex Translate in a web browser with the selected text</string>
+		<key>ru</key>
+		<string>Открыть Яндекс Переводчик и перевести в веб-браузере выделенный текст</string>
+	</dict>
+	<key>Extension Identifier</key>
+	<string>com.nikolalek.popclip.extension.yandex-translate</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Yandex Translate</string>
+		<key>ru</key>
+		<string>Яндекс Переводчик</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>site</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Yandex Translate Site</string>
+				<key>ru</key>
+				<string>Сайт Яндекс Переводчика</string>
+			</dict>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>translate.yandex.com</string>
+				<string>translate.yandex.ru</string>
+			</array>
+		</dict>
+	</array>
+	<key>Required Software Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
